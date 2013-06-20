@@ -1,0 +1,2 @@
+# eula
+### a Sails application

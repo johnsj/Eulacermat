@@ -1,0 +1,49 @@
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.tooltip{
+  padding: 10px;
+  background-color: lightsteelblue;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.kommune{
+  fill:#ccc;
+  stroke:#eee;
+  stroke-width: 0.1px;
+}
+
+.kommune.active{
+  fill:#CDC;
+}
+
+.red{
+  fill:red;
+}
+
+.yellow{
+  fill:yellow;
+}
+
+.green{
+  fill:green;
+}
+
+.blue{
+  fill:blue;
+}
+
+.nodata{
+  fill:gray;
+}
+
+.amt-label {
+  fill: #000;
+  fill-opacity: .5;
+  font-size: 20px;
+  font-weight: 300;
+  text-anchor: middle;
+}
