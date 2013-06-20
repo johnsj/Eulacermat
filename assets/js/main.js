@@ -60,7 +60,7 @@ var usage = new Array();
 
 queue()
   .defer(d3.json, "/geojson/DNK_adm/dnk3.json")
-  .defer(d3.csv, "geojson/energidata.csv", function (d) {
+  .defer(d3.csv, "geojson/energidata.json", function (d) {
     usage[d.geoID] = d;
   })
   .await(ready);
